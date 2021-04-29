@@ -81,6 +81,7 @@ export class Lista extends React.Component{
                 </div>
                 <div className="lista">
                     <h1>LISTADO</h1>
+                    <hr></hr>
                     <ul>
                         {this.state.Listado.map((item, index) => {return( <li key={index} className="elemento" >{index+1} - {item}</li> )})}
                     </ul>
